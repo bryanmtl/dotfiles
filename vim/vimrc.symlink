@@ -1,4 +1,5 @@
 set noswapfile
+colorscheme railscasts2
 
 " ----------------------------------------------------------------------------
 "  Text Formatting

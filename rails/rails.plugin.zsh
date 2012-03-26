@@ -8,6 +8,8 @@ alias sc='ruby script/console'
 alias sd='ruby script/server --debugger'
 alias devlog='tail -f log/development.log'
 alias inventory='heroku rake compare_open_and_actual_inventory --remote production'
+alias be='bundle exec'
+alias bake='bundle exec rake'
 
 function remote_console() {
   /usr/bin/env ssh $1 "( cd $2 && ruby script/console production )"
