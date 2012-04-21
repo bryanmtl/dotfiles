@@ -11,6 +11,7 @@ alias inventory='heroku rake compare_open_and_actual_inventory --remote producti
 alias be='bundle exec'
 alias bake='bundle exec rake'
 alias cuke='bundle exec cucumber'
+alias bspec='bundle exec rspec'
 
 function remote_console() {
   /usr/bin/env ssh $1 "( cd $2 && ruby script/console production )"
