@@ -22,7 +22,7 @@ fi
 # load every completion after autocomplete loads
 for config_file ($ZSH/**/completion.sh) source $config_file
 
-export BUNDLER_EDITOR='subl -w'
+export BUNDLER_EDITOR='mate'
 
 function heroku-s3-mirror () {
   export `heroku config \$@ | grep S3_ | sed -e "s/ //g" -e "s/>//g" | tr "\\n" " "`
