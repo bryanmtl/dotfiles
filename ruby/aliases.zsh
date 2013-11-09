@@ -6,3 +6,4 @@ alias sd='script/destroy'
 
 alias migrate='rake db:migrate db:test:clone'
 alias bake='bundle exec rake'
+alias bspec='bundle exec rspec'
